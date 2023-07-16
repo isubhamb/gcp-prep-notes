@@ -1,3 +1,5 @@
+Diagnostic questions [COMPLETE]
+
 how are billing acc applied to projects in google cloud?
 1. one billing acc can be linked  to one or more projects.
 2. a project and its resources can be linked to one billing
@@ -23,3 +25,38 @@ Which two permissions will they receive?
 1.compute.images.get <--- Get,list is read-only. Viewer has this permission
 2.compute.images.list
 ----------------------------
+4.You want to use the Cloud Shell to copy files to your Cloud 
+Storage bucket. Which Cloud SDK command should you use?
+gsutil - to interact with Cloud Storage via the Cloud SDK.
+----------------------------
+5. Fiona is the billing administrator for the project associated with Cymbal Superstore’s
+   eCommerce application. Jeffrey, the marketing department lead, wants to receive emails 
+   related to budget alerts. Jeffrey should have access to no additional billing information.
+   What should you do?
+
+   Use Cloud Monitoring notification channels to send Jeffrey an email alert.
+   You can set up to 5 Cloud Monitoring channels to define email recipients that will receive budget alerts.
+----------------------------------
+6. Jane will manage objects in Cloud Storage for the Cymbal Superstore. She needs to have access
+   to the proper permissions for every project across the organization. What should you do?
+
+Add Jane to a group that has the roles/storage.objectAdmin role assigned at the organizational level.
+------------------------------------
+7. You need to add new groups of employees in Cymbal Superstore’s production environment. 
+   You need to consider Google’s recommendation of using least privilege. What should you do?
+
+Grant predefined and custom roles that provide necessary permissions and grant basic roles only 
+where needed.
+------------------------------------
+8. How are resource hierarchies organized in Google Cloud?
+ Organization, Folder, Project, Resource
+ Organization sits at the top of the Google Cloud resource hierarchy. This can be divided into folders, which are optional.
+ Next, there are projects you define. Finally, resources are created under projects.
+--------------------------------------
+9. Pick two choices, from the options below, that provide a command line interface to Google Cloud.
+Cloud Shell
+Cloud SDK
+--------------------------------------
+10. What Google Cloud project attributes can be changed?
+The Project Name.
+--------------------------------------
