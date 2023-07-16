@@ -1,0 +1,25 @@
+how are billing acc applied to projects in google cloud?
+1. one billing acc can be linked  to one or more projects.
+2. a project and its resources can be linked to one billing
+   account.
+
+project can be linked to 1 billing but billing acc can be linked to many.
+----------------------------
+2. stella is a new member of a team in your company who is in
+   charge of monitoring vm instances in the org. she needs the 
+   required permission to perform the role. how should you grant
+   her those permissions?
+
+add stella to google cloud group in your org. bind that group
+to roles/compute viewer.
+notes: best practise to manage role assignment by groups.not by
+       indivitual users.
+---------------------------
+3.The Operations Department at Cymbal Superstore wants to provide 
+managers access to information about VM usage without allowing 
+them to make changes that would affect the state. You assign them 
+the Compute Engine Viewer role. 
+Which two permissions will they receive?
+1.compute.images.get <--- Get,list is read-only. Viewer has this permission
+2.compute.images.list
+----------------------------
