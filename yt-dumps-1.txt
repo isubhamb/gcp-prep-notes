@@ -1,0 +1,52 @@
+1) Which gCP service below provides a direct physical connection between your GCP environment and your
+on-premises network using gCP network co-locations?
+A. Cloud VPN
+B. Carrier Peering
+c. Dedicated Interconnect
+D. Partner Interconnect
+
+Correct Answer: C
+Cloud Interconnect provides low latency, highly available connections that enable you to reliably transfer data
+between your on-premises and Virtual Private Cloud networks. Also, Cloud Interconnect connections provide l
+1918 communication, which means internal (private) IP addresses are directly accessible from both networks.
+Cloud Interconnect offers two options for extending your on-premises network. Google Cloud Interconnect -
+Dedicated (Dedicated Interconnect) provides a direct physical connection between your on-premises network and
+Google's network. Google Cloud Interconnect - Partner (Partner Interconnect) provides connectivity between your
+on-premises and CP VPC networks through a supported service provider.
+Cloud Interconnect provides low latency, highly available connections that enable you to reliably transfer data
+between your on-premises and Virtual Private Cloud networks. Also, Cloud Interconnect connections provide RFC
+1918 communication, which means internal (private) IP addresses are directly accessible from both networks.
+Cloud Interconnect offers two options for extending your on -premises network. Google Cloud Interconnect -
+Dedicated (Dedicated Interconnect) provides a direct physical connection between your on-premises n Full screen (1)
+- Google's network. Google Cloud Interconnect - Partner (Partner Interconnect) provides connectivity between your
+an-premises and GCP VPC networks through a supported service provider.
+-----------------------------------------
+
+2) Steve is the cloud admin for Blue Widget Corp. He has been asked to configure a Kubernetes-hosted
+app so that it can be accessed internally by the KE cluster. It will NOT be accessed from the public
+internet. Which service is suitable for exposing an internal IP address for apps that do not need to be
+accessed from the public internet?
+A. NodePort
+B. ClusterIP
+C. LoadBalancer
+D. ExternalName
+
+Correct Answer: B
+ClusterIP services expose an internal IP address for apps that do not need to be accessed from the public
+internet. NodePort services expose the node's IP address on a specific port. LoadBalancer and
+ExternalName services both work closely with your cloud provider. The former works with your provider's
+load balancer resources to expose a set of pods while the latter returns a NAME record based a DNS name
+of your choosing.
+-----------------------------------------
+3) Which of the following Kubernetes controllers should be used for maintenance operations that must run
+with exactly one pod running on each node?
+A. DaemonSet
+B. ReplicaSet
+C. StatefulSet
+D. Deployment
+
+Correct Answer: A
+DaemonSets attempt to adhere to a one-Pod-per-node model, either across the entire cluster or a
+subset of nodes. As you add nodes to a node pool, DaemonSets automatically add Pods to the new
+nodes as needed.
+----------------------------------
