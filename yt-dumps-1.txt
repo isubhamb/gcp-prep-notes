@@ -140,3 +140,69 @@ D. Use kubectl config use-context and kubectl config view to review the output.
 Correct Answer: D
 https://medium.com/google-cloud/kubernetes-engine-kubectl-config-b6270d2b656c
 -----------------------------------
+11) When using Google BigQuery, which of the following best describes the pricing models? Choose
+two options.
+A. Flat-rate pricing
+B. Monthly subscription tiers for processing more than
+   500 terabytes per month
+C. On-demand pricing
+D. Capacity-pricing
+
+Correct Answer: C
+On-demand pricing (per TB). With this pricing model, you are charged for the num
+processed by each query. The first 1 TB of query data processed per month is free
+Capacity pricing (per slot-hour). With this pricing model, you are charged for comp
+run queries, measured in slots (virtual CPUs) over time. This model takes advantag
+editions. You can leverage the BigQuery autoscaler or purchase slot commitments
+capacity that is always available for your workloads, at a lower price.
+https://cloud.google.com/bigquery/pricing#queries
+
+12) Dana, the junior cloud admin, has been asked to deploy a virtual machine on the GCP platform. Which
+images below can Dana use to deploy her VM?
+A. Public image
+B. Custom image
+C. Container image
+D. None of these
+
+Correct Answer: ABC
+Dana can deploy a VM from a public, custom, or container image. There is no hybrid image option for
+Google. Hybrid refers to the multi-cloud infrastructure to deploy a single application system across multiple
+sites. These different sites could be different public clouds (multi-cloud) or a combination of public and on-
+premises data centers (hybrid cloud).
+https://cloud.google.com/compute/docs/images
+
+13) You need to create a custom VPC with a single subnet. The subnet's range must be as large as
+possible. Which range should you use?
+A. A. 0.0.0.0/0
+B. B. 10.0.0.0/8
+C. C. 172.16.0.0/12
+D. D. 192.168.0.0/16
+Correct Answer: B
+
+14) To configure Stackdriver to monitor a web server and notify you if it goes down, what steps do you need
+to take? (Choose 2 answers)
+A. Install the Stackdriver Monitoring Agent on the web server
+B. Create an uptime check
+C. Create an alerting policy
+D. Install the Operations Monitoring Logging Agent on the web server
+Correct Answer: BC
+Uptime checks verify that your web server is always accessible. The alerting policy controls who is
+notified if the uptime checks should fail.
+You don't need to install the Operations Suite to get downtime alerts. The agent provides additional
+information, but it's not required. The Operations Monitoring Logging Agent is for additional logging, not
+for alerts.
+Using the Monitoring agent is optional. Operations Monitoring can access some metrics without the
+Monitoring agent, including CPU utilization, some disk traffic metrics, network traffic, and uptime
+information. [https://cloud.google.com/monitoring/agent/#purpose]
+Full screen (f)
+https://cloud.google.com/monitoring/monitor-compute-engine-virtual-machine
+
+15) Your company uses Cloud Storage to store application backup files for disaster recovery purposes. You
+want to follow Google's recommended practices. Which storage option should you use?
+A. Multi-Regional Storage
+B. Regional Storage
+C. Nearline Storage
+D. Coldline Storage
+Correct Answer: D
+https://cloud.google.com/storage/docs/storage-classes#nearline
+
