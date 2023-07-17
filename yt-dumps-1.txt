@@ -206,3 +206,66 @@ D. Coldline Storage
 Correct Answer: D
 https://cloud.google.com/storage/docs/storage-classes#nearline
 
+16) Steve is a cloud admin at the Blue Widget Company. He's been asked to deploy a public-facing web
+application. Jen, who is Steve's manager, doesn't want to deploy any more hardware, infrastructure, or
+services than are absolutely necessary. Which service should Steve use to host the web application?
+A. Compute Engine
+B. App Engine
+C. Kubernetes Engine
+D. None of the Above
+Correct Answer: B
+https://cloud.google.com/appengine
+
+17) You want to select and configure a cost-effective solution for relational data on Google Cloud
+Platform. You are working with a small set of operational data in one geographic location. You need to
+support point-in-time recovery. What should you do?
+A. Select Cloud SQL (MySQL). Verify that the enable
+binary logging option is selected.
+B. Select Cloud SQL (MySQL). Select the create failover
+replicas option.
+C. Select Cloud Spanner. Set up your instance with 2
+nodes.
+D. Select Cloud Spanner. Set up your instance as multi-
+regional.
+Correct Answer: A
+
+https://cloud.google.com/sql/docs/mysql/backup-recovery/restore
+https://cloud.google.com/sql/docs/mysql/backup-recovery/backups
+
+18) Dave is junior cloud admin at the Blue Widget Corp. He's been asked to review the logs to identify
+which user created the APP01 virtual machine in GCP. Which audit log should Dave review?
+A. data access logs
+B. system events logs
+c. admin activity logs
+D. None of the Above
+Correct Answer: C
+Admin Activity audit logs contain log entries for API calls or other administrative actions that modify
+the configuration or metadata of resources. For example, these logs record when users create VM
+instances or change Cloud Identity and Access Management permissions.
+https://cloud.google.com/logging/docs/audit/
+
+19) Several employees at your company have been creating projects with Cloud Platform and paying for it
+with their personal credit cards, which the company reimburses. The company wants to centralize all these
+projects under a single, new billing account. What should you do?
+A. Contact cloud-billing@google.com with your bank account details and request a corporate billing
+account for your company.
+B. Create a ticket with Google Support and wait for their call to share your credit card details over
+the phone.
+C. In the Google Platform Console, go to the Resource Manage and move all projects to the root
+Organizarion.
+D. In the Google Cloud Platform Console, create a new billing account and set up a payment
+method.
+Correct Answer: D
+https://cloud.google.com/billing/docs/how-to/manage-billing-account#create_a_new_billing_account
+
+20) After an incident at Blue Widget Corp, where a user deleted some resources accidentally, corporate leaders
+are now demanding that users only have the exact access and management privileges that they need. What
+tool (or service) will allow Steve, as the administrator, enforce this doctrine of "least privilege"?
+A. Role-Based Access Control
+B. GCP Cloud Identity and Access Management
+C. Assigning Liens
+D. GCP Trust and Security
+Correct Answer: B
+Using Cloud Identity and Access Management (IAM), you can follow the principle of least privilege
+and limit the permissions granted to any particular user to the minimum necessary
+https://cloud.google.com/iam/docs/overview
