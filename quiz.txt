@@ -1,4 +1,4 @@
-Diagnostic questions [COMPLETE]
+Diagnostic questions [COMPLETE Hogaya]
 
 how are billing acc applied to projects in google cloud?
 1. one billing acc can be linked  to one or more projects.
