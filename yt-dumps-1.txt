@@ -1,4 +1,4 @@
-1) Which gCP service below provides a direct physical connection between your GCP environment and your
+1..) Which gCP service below provides a direct physical connection between your GCP environment and your
 on-premises network using gCP network co-locations?
 A. Cloud VPN
 B. Carrier Peering
